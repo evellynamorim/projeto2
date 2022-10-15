@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/cifra.png);
+}
+
+
+#meio {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.container {
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+
+}
+
+.botoes {
+    background-color: white;
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.inputs {
+    background-color: white;
+    border: 1px solid rgb(0, 183, 255);
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 4px;
+
+}

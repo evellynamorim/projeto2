@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>criptografia</title>
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+<body>
+
+    <div id="meio">
+
+        <div class="container">
+
+            <h1>Selecionar a criptografia que deseja testar</h1>
+            <br>
+            <input class="inputs" type="radio" id="cifra" name="escolha" class="criptografias" onclick="aprc()">
+            <label for="cifra" class="criptografias">Cifra de César</label>
+
+            <input class="inputs" type="radio" id="b64" name="escolha" class="criptografias" onclick="smr()">
+            <label for="b64" class="criptografias">Base64</label>
+
+            <br>
+            <br>
+            <input class="inputs" type="number" id="esc" placeholder="Insira o número">
+            <br>
+            <br>
+            <textarea class="inputs" type="text" id="texto" placeholder="Insira a mensagem para criptografar"
+                rows="5"></textarea>
+            <br>
+            <br>
+
+            <button class="botoes" id="crip" type="submit" onclick="cript()" value="enviar"> Criptografar </button>
+            <button class="botoes" id="des" type="submit" onclick="descript()" value="enviar"> Descriptografar </button>
+            <br>
+            <br>
+            <textarea class="inputs" type="text" id="resposta" rows="5"></textarea>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
